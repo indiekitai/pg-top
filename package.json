@@ -1,5 +1,5 @@
 {
-  "name": "@indiekit/pg-top",
+  "name": "@indiekitai/pg-top",
   "version": "0.1.0",
   "description": "Real-time PostgreSQL activity monitor — like top for Postgres",
   "type": "module",
