@@ -5,10 +5,12 @@
   "type": "module",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     }
   },
+  "files": ["dist"],
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -29,5 +31,12 @@
     "vitest": "^2.0.0"
   },
   "keywords": ["postgresql", "monitor", "pg_activity", "top", "mcp"],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/indiekitai/pg-top"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
