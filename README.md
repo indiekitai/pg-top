@@ -1,3 +1,5 @@
+[English](README.md) | [中文](README.zh-CN.md)
+
 # @indiekit/pg-top
 
 [![npm version](https://img.shields.io/npm/v/@indiekit/pg-top)](https://www.npmjs.com/package/@indiekit/pg-top)
